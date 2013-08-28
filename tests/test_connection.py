@@ -4,7 +4,7 @@ __author__ = 'astrojek'
 
 from tests.config import KEYS, USER, USERKEY
 
-from wykop import Wykop
+from wykopapi import Wykop
 
 
 class ConnectionTest(unittest.TestCase):
