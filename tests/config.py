@@ -1,11 +1,9 @@
-from collections import defaultdict
+import os
 
 __author__ = 'astrojek'
 
-KEYS = defaultdict(lambda: ('', ''), {
-    'user': ('', ''),
+APP_KEY = os.environ.get('APP_KEY')
+APP_SECRET = os.environ.get('APP_SECRET')
 
-})
-
-USER = "zwierzak2003"
-USERKEY = ""
+USER_LOGIN = os.environ.get('USER_LOGIN')
+USER_KEY = os.environ.get('USER_KEY')
