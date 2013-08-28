@@ -15,3 +15,4 @@ class ConnectionTest(unittest.TestCase):
 
         self.assertIsNotNone(result, "Not a userkey")
 
+        self.assertIsNotNone(api.session, "Requests session not created")
